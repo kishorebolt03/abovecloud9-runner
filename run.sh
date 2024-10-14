@@ -37,6 +37,12 @@ else
     log "OpenSSL is already installed."
 fi
 
+# Git pull latest update and check if there are any difference
+
+
+git pull origin main
+
+
 # # Creating the directory where the script will be stored
 # mkdir -p /etc/ac9runner
 # log "Created directory /etc/ac9runner."
